@@ -1,0 +1,36 @@
+name: doctorconsultant
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  google_fonts: any
+  flutter_screenutil: ^5.9.3
+  get: any
+  country_picker: ^2.0.26
+  lucide_icons: any
+  new_pinput: ^1.0.1
+  rating_summary: ^1.0.2+1
+  bootstrap_icons: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/doctors/
+    - assets/
+    - assets/types/
+    - assets/social/
